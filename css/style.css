@@ -1,0 +1,304 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+a{
+	color:#00b300;
+
+}
+a:hover{
+	text-decoration: none;
+}
+
+.head {
+	padding: 30px 0;
+	background-color: cyan;
+	background: linear-gradient(to right, #f5f9fc 50%, #ffffff);
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.bt{
+	border-radius: 25px !important;
+	color:green;
+	padding:12px 35px;
+}
+
+.logo{
+	margin-left:20px;
+	font-size: 30px;
+}
+
+
+.logo img{
+	width: 20px;
+	height: 20px;
+	float:left;
+	position: relative;
+  	top: 13px;
+  	left: 5px;
+	margin-right: 10px;
+}
+
+.logo span{
+	color:#00b300;
+}
+
+
+.inf{
+	text-align: center;
+	background-color:#d9f3e5;
+	padding:30px 0;
+}
+
+.inf h1{
+	font-size: 45px;
+}
+
+.inf h1 span,p span{
+	font-weight: bold;
+}
+
+.pik{
+	text-align: center;
+	padding:30px 0;
+}
+.pik span {
+	color:#00b300;
+}
+
+.pik h1 {
+	font-size: 50px;
+    
+}
+
+.pik h1 a{
+	font-size: 15px;
+	vertical-align: middle;
+
+}
+
+.choose ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+.choose{
+	text-align: center;
+}
+
+
+.choose > .image-arrow{visibility: hidden;}
+.choose > a:hover + .image-arrow{visibility: visible;}
+
+.choose > a:hover{
+	color:black;
+	font-weight: bold;
+}
+
+
+
+.nav {
+	border: 1px solid #ccccb3;
+	border-radius:5px;
+	margin-top: 20px;
+
+
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background-color: green;
+	
+
+}
+
+.navigation a{
+	color:black;
+	font-size: 18px;
+}
+
+
+.forms{
+	margin-top: 20px;
+}
+
+
+.btt{
+	border-radius: 25px !important;
+	padding:12px 35px;
+}
+
+.dropMiddle button{
+	background-color: white;
+	color:black;
+	text-align: center;
+	margin-left:15px;
+	border: 1px solid #e0e0d1;
+	border-radius: 4px;
+	padding: 5px 30px;
+
+}
+
+
+
+.forms img{
+	width: 50px;
+	height: 50px;
+}
+
+.forms input{
+	margin-top: 10px;
+}
+
+.pick{
+	margin-top:20px;
+}
+
+
+.pick button{
+	background-color: white;
+	color:#878c90;
+	border:none;
+}
+
+.list{
+	margin-top:30px;
+}
+
+.list p{
+	text-align: right;
+	color:#878c90;
+	}
+
+.list p:first-child{
+	padding-top: 20px;
+}
+
+.list p span{
+	color:green;
+}
+
+.list h1{
+	font-size: 2rem;
+}
+
+.trash p{
+	font-size: 2.5em;
+	text-align: right;
+
+	
+}
+
+
+
+.bolder::-webkit-input-placeholder {
+font-weight: bold;
+
+}
+
+.bolder::-webkit-input-placeholder::first-letter{
+color:green;
+}
+
+
+.newsSM{
+	margin-top: 20px;
+}
+
+
+.logoSM{
+	
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.logoSM img{
+	width: 50px;
+	height: 50px;
+	float:left;
+	position: relative;
+  	top: -10px;
+  	left: 5px;
+	margin-right: 10px;
+
+}
+
+.arrSM{
+	margin-top: 30px;
+}
+.arrSM p{
+	text-transform: capitalize;
+	text-align: left;
+	font-weight: bold;
+	
+}
+
+.arrSM .row .col-2{
+	text-align: right;
+	color:#989da0;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.other p a{
+	font-weight: normal;
+	color:#989da0;
+}
+
+.right{
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .head{
+  	text-align: center;
+  }
+  .logo img{
+	width: 20px;
+	height: 20px;
+	float:none;
+	position: relative;
+  	top: 0px;
+  	left: 5px;
+	margin-right: 10px;
+
+}
+.inf{
+	text-align: left;
+}
+
+    }
+ 
+
+
+@media screen and (max-width: 990px) {
+	div.trash{
+	text-align: right;
+}
+
+  
+  }
